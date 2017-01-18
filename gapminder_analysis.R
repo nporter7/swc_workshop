@@ -19,6 +19,6 @@ ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_p
      facet_grid(.~continent)
 #facet_grid allows you to create a series of panels for your data!
 
-# save plot
+# save plot either as pdf or as png or other
 ggsave(filename="year_vs_lifeexp_percont.png", width=5, height=4, units="in")
 ggsave(filename="year_vs_lifeexp_percont.pdf", width=5, height=4, units="in")

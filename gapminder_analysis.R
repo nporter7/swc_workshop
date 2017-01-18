@@ -22,3 +22,5 @@ ggplot(data = gapminder, aes(x = year, y = lifeExp, color = continent)) + geom_p
 # save plot either as pdf or as png or other
 ggsave(filename="year_vs_lifeexp_percont.png", width=5, height=4, units="in")
 ggsave(filename="year_vs_lifeexp_percont.pdf", width=5, height=4, units="in")
+
+# adding an edit in github so I can learn how that is done.
